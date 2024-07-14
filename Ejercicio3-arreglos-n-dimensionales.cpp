@@ -24,7 +24,7 @@ int main(){
 	
 	for(int i=0; i<4; i++){
 		sumaDIprincipal+=matrizA[i][i]; 
-	 	sumaDIsecundaria+= matrizA[i][3 - i];
+	 	sumaDIsecundaria+= matrizA[i][3-i];
 	}
 	
 	cout<<"\nLa suma de las diagonales es: "<<sumaDIprincipal+sumaDIsecundaria<<endl;
